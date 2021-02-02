@@ -47,6 +47,8 @@ public class ControllerSystem implements Observed {
     }
 
     private void notifyAllData() {
+        this.notifyUpdateNameTeamOne();
+        this.notifyUpdateNameTeamTwo();
         this.notifyUpdateSetTeamOne();
         this.notifyUpdateSetTeamTwo();
         this.notifyUpdatePointTeamOne();
